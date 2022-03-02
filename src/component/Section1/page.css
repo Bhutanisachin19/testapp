@@ -31,10 +31,12 @@ p {
 }
 
 .back-image {
-  background-image: url("../../images/Vector.svg");
+  background-image: url("../../images/Vector(4).svg");
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  z-index: -2;
+  position: relative;
 }
 
 .bg {
@@ -42,18 +44,31 @@ p {
   height: 100%;
   background-repeat: no-repeat;
   background-position: center;
+  z-index: -2;
+  position: relative;
+}
+
+.img::before {
 }
 
 .bg1 {
   background-image: url("../../images/Vector(2).svg");
   height: 700px;
   background-repeat: no-repeat;
+  background-position: center;
+
+  z-index: -3;
+  position: relative;
 }
 
 .bg2 {
   background-image: url("../../images/Vector(3).svg");
   height: 400px;
   background-repeat: no-repeat;
+  background-position: center;
+
+  z-index: -2;
+  position: relative;
 }
 .section-1 {
   padding: 60px 0;
@@ -110,22 +125,22 @@ footer p {
 
 .cir3 {
   position: absolute;
-  left: 127px;
+  left: -195px;
   z-index: -1;
-  top: 1078px;
+  top: 158px;
 }
 
 .cir4 {
   position: absolute;
-  right: 102px;
-  top: 836px;
+  right: -216px;
+  top: -73px;
   z-index: -1;
 }
 
 .cir5 {
   position: absolute;
-  right: 242px;
-  top: 977px;
+  right: -61px;
+  top: 69px;
   z-index: -2;
 }
 
@@ -148,6 +163,7 @@ footer p {
 
 .second {
   /* White */
+  position: relative;
   background: #fefefe;
   margin: auto;
   /* Cobalt */
@@ -363,6 +379,14 @@ footer p {
   width: 85px;
   height: 47px;
   margin-right: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 23px;
+
+  /* Black */
+  color: #111111;
+  font-family: DM Sans;
+  font-style: normal;
 }
 
 .btn1:hover {
@@ -381,6 +405,7 @@ footer p {
   width: 598px;
   height: 131px;
   margin-bottom: 70px;
+  position: relative;
 }
 
 .card1-data {
@@ -422,6 +447,7 @@ footer p {
   width: 598px;
   height: 131px;
   float: right;
+  position: relative;
 }
 
 .anchors {

@@ -10,6 +10,11 @@
   padding: 0 30px;
   margin: auto;
 }
+.flex-container3 {
+  max-width: 1000px;
+  padding: 60px 30px;
+  margin: auto;
+}
 .flex-container2 {
   max-width: 1000px;
   padding: 0 30px;

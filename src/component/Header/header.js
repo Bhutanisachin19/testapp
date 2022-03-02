@@ -18,7 +18,7 @@ function Header() {
                     </div>
                     
                     <nav class="site-menu">
-                        <ul>
+                        <ul className='ul-1'>
                             <li><a class="list" href="#">Shop</a> </li>
                             <li><a class="list" href="#">About Us</a></li>
                             <li><a class="list" href="#">My Workbooks</a></li>

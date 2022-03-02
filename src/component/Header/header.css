@@ -59,8 +59,16 @@ img {
 .menu {
   display: none;
 }
+.ul-1 {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+}
 
 @media only screen and (max-width: 600px) {
+  .ul-1 {
+    display: none;
+  }
   .primaryButton {
     display: none;
   }
@@ -154,7 +162,7 @@ img {
   position: relative;
   font-family: DM Sans;
   font-style: normal;
-  decoration: none;
+  text-decoration: none;
   font-weight: bold;
   font-size: 16px;
   line-height: 21px;

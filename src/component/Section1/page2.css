@@ -21,14 +21,14 @@
 
 .rec75 {
   position: absolute;
-  left: 108px;
+  left: -59px;
   z-index: -1;
   padding-top: 104px;
 }
 
 .rec76 {
   position: absolute;
-  right: 106px;
+  right: -51px;
   padding-top: 97px;
   z-index: -1;
 }
@@ -44,8 +44,8 @@
 .drop {
   font-weight: normal;
   font-size: 16px;
-  line-height: 42px;
-  width: 500px;
+  line-height: 30px;
+  width: 550px;
   /* identical to box height */
   /* word-spacing: 2px; */
   /* Black */

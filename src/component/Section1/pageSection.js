@@ -13,6 +13,7 @@ import rec84 from "../../images/Rectangle 84.svg";
 import rec75 from "../../images/Rectangle 75.svg";
 import rec76 from "../../images/Rectangle 76.svg";
 import sub from "../../images/Subtract.svg";
+import sub4 from "../../images/Subtract(4).svg";
 import sub1 from "../../images/Subtract(2).svg";
 import sub2 from "../../images/Subtract(3).svg";
 import emoji from '../../images/Emoji.svg';
@@ -34,8 +35,8 @@ import Draggable from "react-draggable";
 function PageSection() {
   return (
     <div>
-      <section className="section-1">
-        <div class="flex-container1 back-image">
+      <section className="section-1 back-image">
+        <div class="flex-container1">
           <div class="flex-row">
             <div class="flex-col-2 col1">
               <div class="img">
@@ -56,7 +57,7 @@ function PageSection() {
       </section>
 
       <section className="section-2 ht">
-        <div class="flex-container2 back-image">
+        <div class="flex-container2">
           <div class="self-flex">
             <div style={{ marginRight: "10px" }}>
               <img src={sub} className="sub" alt="Back" />
@@ -69,10 +70,11 @@ function PageSection() {
           </div>
 
           <div class="second">
-            <img src={cir3} class="cir3" alt="HeroSection" />
+          <img src={cir3} class="cir3" alt="HeroSection" />
             <img src={cir4} class="cir4" alt="HeroSection" />
             <img src={cir5} class="cir5" alt="HeroSection" />
             <div>
+            
               <p className="self-q">Question 4</p>
               <p className="self-d">Drag and drop to fill in the blanks.</p>
               <div>
@@ -244,7 +246,7 @@ function PageSection() {
             <div class="flex-col-2 col1">
               <div class="img" style={{display: 'flex', alignItems:"baseline"}}>
                 <div style={{ marginRight: "10px" }}>
-                  <img src={sub} className="sub" alt="Back" />
+                  <img src={sub4} className="sub" alt="Back" />
                 </div>
                 <div>
                   <h1 className="self2">About the author</h1>
@@ -264,7 +266,7 @@ function PageSection() {
       </section>
 
       <section className="section-1 bg2">
-        <div class="flex-container1 ">
+        <div class="flex-container3 ">
         <div class="self-flex">
             <div style={{ marginRight: "10px" }}>
               <img src={sub} className="sub" alt="Back" />
